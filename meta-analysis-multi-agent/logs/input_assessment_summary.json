@@ -1,0 +1,14 @@
+{
+  "located": {
+    "protocol_pdf": null,
+    "protocol_md": null,
+    "extraction_xlsx": null,
+    "analysis_r": null
+  },
+  "readiness": {
+    "method_ready": false,
+    "data_ready": false,
+    "analysis_ready": false,
+    "all_ready": false
+  }
+}
