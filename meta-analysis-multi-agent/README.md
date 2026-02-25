@@ -63,3 +63,23 @@ Numerical claims in manuscript must be traceable to analysis outputs.
 - Analysis: R (`metafor`, `meta`) preferred
 - Writing: Markdown + Git
 - Reproducibility: `renv` (R) or `conda` (Python)
+
+## Input intake for your 3 core files
+
+Place these files in `meta-analysis-multi-agent/inputs/` (recommended) or any repo subfolder:
+
+- `PRISMA_Protocol_Biochar_DNRA_Denitrification.pdf` (or same-name `.md`)
+- `Data_Extraction_Template.xlsx`
+- `Meta_Analysis_R_Code.R`
+
+Then run:
+
+```bash
+python meta-analysis-multi-agent/scripts/ingest_and_assess.py
+```
+
+Generated outputs:
+- `docs/input_assessment_report_zh.md`
+- `docs/pipeline_progress_zh.md`
+- `logs/input_assessment_summary.json`
+
