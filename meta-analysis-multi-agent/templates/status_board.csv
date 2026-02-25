@@ -1,0 +1,7 @@
+task_id,title,owner,status,due_date,depends_on,artifacts
+T-001,Finalize protocol,Orchestrator,todo,YYYY-MM-DD,,templates/protocol.md
+T-002,Build search strings,SearchAgent,todo,YYYY-MM-DD,T-001,logs/search_*.md
+T-003,Deduplicate records,SearchAgent,todo,YYYY-MM-DD,T-002,data/processed/records_deduped.csv
+T-004,Data extraction,StatsAgent,todo,YYYY-MM-DD,T-003,data/processed/extraction_sheet.csv
+T-005,Primary meta-analysis,StatsAgent,todo,YYYY-MM-DD,T-004,analysis_scripts/main_meta.R
+T-006,Draft manuscript,WritingAgent,todo,YYYY-MM-DD,T-005,docs/manuscript.md
