@@ -1,0 +1,13 @@
+population: ""
+intervention_or_exposure: ""
+comparator: ""
+outcomes:
+  primary: []
+  secondary: []
+study_designs: []
+inclusion_criteria: []
+exclusion_criteria: []
+language_limits: []
+time_window:
+  start: ""
+  end: ""
